@@ -28,10 +28,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     welcome_text = (
         "👋 សួស្តីបង! 🎉\n"
         "🧑‍💻 បងបានចុះឈ្មោះរួចរាល់ហើយ!\n"
-        "🆔 នេះគឺជា Username និង Password សម្រាប់ចូលលេង៖\n"
+        "🆔 នេះគឺជា អ្នកប្រើប្រាស់ និង លេខសម្ងាត់ សម្រាប់ចូលលេង៖\n"
         f"👤 អ្នកប្រើប្រាស់៖ {data['username']}\n"
         f"🔑 លេខសម្ងាត់៖ {data['password']}\n"
-        "🎮 ចូលលេងហ្គេម៖ https://mystaff.store/play\n"
+        "🎮 ចូលលេងហ្គេម៖ https://ubet789kh.com/\n"
         "📲 ប្រសិនបើមានសំណួរឬបញ្ហា សូមទាក់ទង Admin៖\n"
         "🔹 Telegram៖ https://t.me/UB789bot\n"
         "🔹 Facebook៖ https://facebook.com/ub789page\n"
@@ -41,7 +41,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         "🧑‍💻 Your registration is complete!\n"
         f"🆔 Username: {data['username']}\n"
         f"🔑 Password: {data['password']}\n"
-        "🎮 Play here: https://mystaff.store/play\n"
+        "🎮 Play here: https://ubet789kh.com/\n"
         "📲 If you have any questions, contact Admin:\n"
         "🔹 Telegram: https://t.me/UB789bot\n"
         "🔹 Facebook: https://facebook.com/ub789page\n"
@@ -49,7 +49,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     )
 
     keyboard = [
-        [InlineKeyboardButton("🎮 ចូលលេងហ្គេម", url="https://mystaff.store/play")],
+        [InlineKeyboardButton("🎮 ចូលលេងហ្គេម", url="https://ubet789kh.com/")],
         [InlineKeyboardButton("📲 Telegram Admin", url="https://t.me/UB789bot")],
         [InlineKeyboardButton("🌐 Facebook Page", url="https://facebook.com/ub789page")]
     ]
